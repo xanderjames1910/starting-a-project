@@ -17,7 +17,9 @@
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
-		"eject": "react-scripts eject"
+		"eject": "react-scripts eject",
+		"init": "firebase login && firebase init && git init && git add . && git commit -m 'First Commit'",
+		"deploy": "npm run build && firebase deploy"
 	},
 	"eslintConfig": {
 		"extends": "react-app"
